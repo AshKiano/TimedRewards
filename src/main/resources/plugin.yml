@@ -1,0 +1,9 @@
+name: TimedRewards
+version: '${project.version}'
+main: com.ashkiano.timedrewards.TimedRewards
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  reward:
+    description: Claim your timed reward
+    usage: "/reward"
