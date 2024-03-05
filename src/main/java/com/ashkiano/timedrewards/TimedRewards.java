@@ -8,6 +8,7 @@ public final class TimedRewards extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         getCommand("reward").setExecutor(new RewardCommandExecutor(this)); // Příkaz "reward" můžete změnit podle vašich preferencí
+        Metrics metrics = new Metrics(this, 21241);
     }
 
     @Override
